@@ -8,6 +8,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script>
+			if (window.location.hostname === 'lovania.dev') {
+				window.location.href = 'https://www.lovania.dev';
+			}
+		</script>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>

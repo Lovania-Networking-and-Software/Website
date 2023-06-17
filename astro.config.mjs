@@ -10,7 +10,4 @@ export default defineConfig({
 	adapter: cloudflare(),
 	site: 'https://lovania.dev',
 	integrations: [mdx(), sitemap()],
-	build: {
-		assetsPrefix: 'https://cdn.lovania.dev'
-	}
 });

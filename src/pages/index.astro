@@ -5,13 +5,14 @@ import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<script>
-	if (window.location.hostname === 'lovania.dev') {
-		window.location.href = 'https://www.lovania.dev';
-	}
-</script>
+
 <!DOCTYPE html>
 <html lang="en">
+	<script>
+		if (window.location.hostname === 'lovania.dev') {
+			window.location.href = 'https://www.lovania.dev';
+		}
+	</script>
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>

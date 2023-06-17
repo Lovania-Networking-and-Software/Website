@@ -8,6 +8,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	output: 'server',
 	adapter: cloudflare(),
-	site: 'https://lovania.dev',
+	site: 'https://www.lovania.dev',
 	integrations: [mdx(), sitemap()],
 });
